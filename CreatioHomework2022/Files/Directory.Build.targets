@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CreatioHomework2022/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CreatioHomework2022/Data/**" />
+		<Compile Remove="$(PkgPath)/CreatioHomework2022/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CreatioHomework2022/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CreatioHomework2022/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CreatioHomework2022/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CreatioHomework2022/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CreatioHomework2022/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CreatioHomework2022/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CreatioHomework2022/Resources/**" />
+		<None Remove="$(PkgPath)/CreatioHomework2022/Assemblies/**" />
+		<None Remove="$(PkgPath)/CreatioHomework2022/Data/**" />
+		<None Remove="$(PkgPath)/CreatioHomework2022/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CreatioHomework2022/Schemas/**" />
+		<None Remove="$(PkgPath)/CreatioHomework2022/Resources/**" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "b59b3876-c00a-dcbc-ff58-4c7aff671691",
+    "Name": "CreatioHomework2022",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1655296179000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/CreatioHomework2022.csproj",
+    "DependsOn": [
+      {
+        "UId": "d7559847-f38e-410c-baee-6f43bbe80d42",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterpriseSoftkey_ENU"
+      }
+    ]
+  }
+}
